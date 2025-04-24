@@ -17,14 +17,15 @@
 
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 ease-in-out">
                 <div class="h-80">
-                    <img src="{{ asset('images/brian.png') }}" alt="Meet Brian" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/patrick.JPG') }}" alt="Meet Brian" class="w-full h-full object-cover">
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2">Meet Brian</h3>
-                    <p class="text-gray-600 mb-6">We are pleased to announce baby Brian's successful rescue and arrival at the Fountain of Peace Children's Foundation, Bethel Babies' Home. Baby Brian arrived at 6 months old after being abandoned. By the time Fountain of Peace got to know about his situation, Brian was severely malnourished and in desperate need of medical attention. Since he arrived at our babies' home, Brian has recovered well, and we are working hard to make sure that he gains full recovery. We believe Brian will become a strong leader with a powerful testimony. Please consider joining our rescue efforts and donate towards the work of Fountain of Peace by clicking here. Thank you.</p>
-                    <a href="https://sponsorship.fopinternational.org/rescuePermonth" class="inline-block bg-[#13AFD1] text-white px-6 py-3 rounded-md hover:bg-[#0F8FA8] transition-colors duration-300 text-center font-medium">
-                        Rescue Baby
-                    </a>
+                    <h3 class="text-xl font-semibold mb-2">Meet Patrick</h3>
+                    <p class="text-gray-600 mb-4">On March 5th, Fountain of Peace responded to a call from Kyenjojo District's Senior Probation and Social Welfare Officer about Baby Patrick, a three-week-old infant in need of alternative care after his mother, Annet Kebirungi, passed away on March 1st due to a sudden illness. Annet left behind six children under the care of their father, Chris, who was overwhelmed by the responsibility, prompting intervention. Upon arrival, Baby Patrick was healthy, weighing 3.6 kg and feeding well. Fountain of Peace welcomed Patrick as our newest baby, providing him with care and support and ensuring a safe and nurturing environment where he can thrive.</p>
+                    <p class="text-gray-600 mb-4">Thank you for your interest in Patrick's story. Together, we can make a difference in the lives of more children like him.</p>
+                    <p class="text-gray-600">
+                        <a href="https://sponsorship.fopinternational.org/rescuePermonth" class="text-[#13AFD1] hover:text-[#0F8FA8] font-medium">Click here</a> to support our rescue mission.
+                    </p>
                 </div>
             </div>
 
@@ -34,7 +35,11 @@
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Introducing the ACE Curriculum</h3>
-                    <p class="text-gray-600">We are thrilled to announce the introduction of the Accelerated Christian Education (ACE) curriculum at Rwenjaza Hillside School! This innovative and dynamic curriculum represents a significant step forward in our commitment to providing an exceptional educational experience for our students and the community. The ACE curriculum is designed to cater to the individual learning needs of each student, fostering a personalized and self-paced educational journey. By emphasizing character development, responsibility, and academic excellence, ACE prepares students for academic success and life beyond the classroom.</p>
+                    <p class="text-gray-600 mb-4">We are thrilled to announce the introduction of the Accelerated Christian Education (ACE) curriculum at Rwenjaza Hillside School! This innovative and dynamic curriculum represents a significant step forward in our commitment to providing an exceptional educational experience for our students and the community. The ACE curriculum is designed to cater to the individual learning needs of each student, fostering a personalized and self-paced educational journey. By emphasizing character development, responsibility, and academic excellence, ACE prepares students for academic success and life beyond the classroom.</p>
+                    <p class="text-gray-600 mb-4">Thank you for your support in bringing quality education to our community.</p>
+                    <p class="text-gray-600">
+                        <a href="https://sponsorship.fopinternational.org/donate" class="text-[#13AFD1] hover:text-[#0F8FA8] font-medium">Click here</a> to support our educational initiatives.
+                    </p>
                 </div>
             </div>
         </div>

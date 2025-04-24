@@ -4,20 +4,24 @@
             <div>
                 <h2 class="text-3xl font-bold mb-6 text-[#13AFD1]">Community Impact</h2>
                 <p class="text-gray-600 mb-6">
-                    In addition to supporting our children at Fountain of Peace village, we've made it our mission to bring life-changing solutions to our nearby vulnerable communities.
+                    At Fountain of Peace, our dedication extends beyond supporting the children in our care. We are committed to bringing transformative solutions to the vulnerable communities around us. Over 300 vulnerable children are getting a quality education through our Rwenjaza Hillside Nursery and Primary School. Through this, we are equipping them with the knowledge and skills needed to break the cycle of poverty and build a brighter future.
+                </p>
+                <p class="text-gray-600 mb-6">
+                    Moreover, addressing the critical need for clean water has been one of our primary objectives. We have successfully constructed more than 20 wells, ensuring nearby communities can access safe, life-sustaining water. This initiative promotes better health and empowers communities to thrive and prosper. We also have an initiative called Mothers Matter in childbirth, through which we support pregnant mothers to get the medical attention they need. This way, we promote safe childbirth.
                 </p>
                 <p class="text-gray-600 mb-8">
-                    We have over 400 vulnerable children receive an education at our very own Rwenjaza Hillside Nursery and Primary School. We have also built over 3 wells that are providing more communities with the gift of clean, life-sustaining water.
+                    Our mission is guided by compassion and a deep-seated belief that every child and community deserves the opportunity to flourish. We are immensely grateful for the support and collaboration of those who share our vision. Together, we will continue to make a significant and positive impact in the lives of those we serve.
                 </p>
-                <button @click="window.location.href='https://sponsorship.fopinternational.org/donate'" 
-                        class="inline-flex items-center px-6 py-3 bg-[#13AFD1] text-white font-medium rounded-md hover:bg-[#0F8FA8] transition-colors duration-300">
-                    SPONSOR
-                </button>
+                <p class="text-gray-600">
+                    Thank you for being a part of our journey towards hope and transformation. 
+                    <a href="https://sponsorship.fopinternational.org/donate" class="text-[#13AFD1] hover:text-[#0F8FA8] font-medium">Click here</a> 
+                    to be part of this community transformation.
+                </p>
             </div>
             
             <div class="relative rounded-xl overflow-hidden shadow-xl">
-                <img src="{{ asset('images/community_impact.jpg') }}" 
-                     alt="Mothers Matter Initiative" 
+                <img src="{{ asset('images/community_impact.jpeg') }}" 
+                     alt="Community Impact at Fountain of Peace" 
                      class="w-full h-full object-cover">
             </div>
         </div>

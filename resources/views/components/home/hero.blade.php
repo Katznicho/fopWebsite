@@ -2,6 +2,7 @@
     currentSlide: 0,
     showModal: false,
     selectedCountry: '',
+    buttonType: '',
     redirectToCountry() {
         if (this.selectedCountry) {
             if (this.selectedCountry === 'gb') {
@@ -9,7 +10,8 @@
             } else if (this.selectedCountry === 'nz') {
                 window.location.href = 'https://www.fountainofpeace.org.nz/';
             } else {
-                window.location.href = 'https://sponsorship.fopinternational.org/donate';
+                const baseUrl = 'https://sponsorship.fopinternational.org';
+                window.location.href = this.buttonType === 'sponsor' ? baseUrl : `${baseUrl}/donate`;
             }
         }
     },
@@ -17,7 +19,7 @@
         {
             image: '{{ asset('images/buidling_families.jpg') }}',
             title: 'Giving Hope',
-            subtitle: 'In Western Uganda',
+            subtitle: 'In  Uganda',
             body: 'We\'re dedicated to giving abandoned and destitute children a chance to survive, thrive and be all they can be.'
         },
         {
@@ -65,11 +67,11 @@ x-init="init()">
                     </h1>
                     <p class="mx-auto mt-3 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl" x-text="slide.body"></p>
                     <div class="mt-8 flex justify-center gap-x-6">
-                        <button @click="showModal = true" 
+                        <button @click="buttonType = 'sponsor'; showModal = true" 
                                 class="rounded-md bg-[#13AFD1] px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-[#0F8FA8]">
                             Sponsor
                         </button>
-                        <button @click="showModal = true" 
+                        <button @click="buttonType = 'donate'; showModal = true" 
                                 class="rounded-md bg-white px-6 py-3 text-lg font-semibold text-[#13AFD1] shadow-sm hover:bg-gray-100">
                             Donate
                         </button>
@@ -133,6 +135,7 @@ x-init="init()">
                         <option value="" disabled selected>Select your country</option>
                         <option value="gb">United Kingdom</option>
                         <option value="nz">New Zealand</option>
+                        <option value="ug">Uganda</option>
                         <option value="other">Other Countries</option>
                     </select>
                     <!-- Custom dropdown arrow -->
