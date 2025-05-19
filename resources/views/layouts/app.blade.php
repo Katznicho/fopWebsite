@@ -7,21 +7,21 @@
         <!-- Primary Meta Tags -->
         <title>{{ config('app.name', 'Fountain of Peace') }} - @yield('title')</title>
         <meta name="title" content="{{ config('app.name', 'Fountain of Peace') }} - @yield('title')">
-        <meta name="description" content="Empowering vulnerable children in Western Uganda through love, education, and care. Join Fountain of Peace Children's Foundation in building futures, transforming communities, and creating lasting impact.">
-        <meta name="keywords" content="Fountain of Peace Uganda, child sponsorship Uganda, orphan care Western Uganda, Christian child care, Uganda education support, child welfare NGO, community development Uganda, child sponsorship program, Uganda children's foundation, humanitarian aid Uganda, child education support, Christian missions Uganda, vulnerable children support, Uganda child care center, African child sponsorship">
+        <meta name="description" content="Empowering vulnerable children in Uganda through love, education, and care. Join Fountain of Peace Children's Foundation in building futures, transforming communities, and creating lasting impact.">
+        <meta name="keywords" content="Fountain of Peace Uganda, child sponsorship Uganda, orphan care Uganda, Christian child care, Uganda education support, child welfare NGO, community development Uganda, child sponsorship program, Uganda children's foundation, humanitarian aid Uganda, child education support, Christian missions Uganda, vulnerable children support, Uganda child care center, African child sponsorship">
         
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:title" content="{{ config('app.name', 'Fountain of Peace') }} - @yield('title')">
-        <meta property="og:description" content="Transform lives of vulnerable children in Western Uganda through partnership. Join Fountain of Peace in providing education, healthcare, and hope.">
+        <meta property="og:description" content="Transform lives of vulnerable children in  Uganda through partnership. Join Fountain of Peace in providing education, healthcare, and hope.">
         <meta property="og:image" content="{{ asset('images/logo.jpg') }}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="{{ url()->current() }}">
         <meta property="twitter:title" content="{{ config('app.name', 'Fountain of Peace') }} - @yield('title')">
-        <meta property="twitter:description" content="Transform lives of vulnerable children in Western Uganda through partnership. Join Fountain of Peace in providing education, healthcare, and hope.">
+        <meta property="twitter:description" content="Transform lives of vulnerable children in  Uganda through partnership. Join Fountain of Peace in providing education, healthcare, and hope.">
         <meta property="twitter:image" content="{{ asset('images/logo.jpg') }}">
 
         <!-- Favicon -->

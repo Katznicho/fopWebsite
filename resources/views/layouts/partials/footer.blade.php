@@ -50,7 +50,46 @@
         </div>
 
         <div class="mt-12 pt-8 border-t border-white/10 text-center">
-            <p class="text-white/90">&copy; {{ date('Y') }} Fountain of Peace Children's Foundation. All rights reserved.</p>
+            <p class="text-white/90">© {{ date('Y') }} Fountain of Peace Children's Foundation. All rights reserved.</p>
         </div>
     </div>
 </footer>
+
+<!-- Scroll to Top Button -->
+<button id="scroll-to-top" class="fixed bottom-8 right-8 bg-[#13AFD1] text-white p-3 rounded-full shadow-lg hover:bg-[#0F8FA8] transition-all duration-300 opacity-0 invisible z-50" aria-label="Scroll to top">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollToTopBtn = document.getElementById('scroll-to-top');
+
+    // Toggle button visibility based on scroll position
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            scrollToTopBtn.classList.remove('opacity-0', 'invisible');
+            scrollToTopBtn.classList.add('opacity-100', 'visible');
+        } else {
+            scrollToTopBtn.classList.remove('opacity-100', 'visible');
+            scrollToTopBtn.classList.add('opacity-0', 'invisible');
+        }
+    });
+
+    // Smooth scroll to top on click
+    scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+<style>
+/* Ensure smooth transitions for scroll-to-top button */
+#scroll-to-top {
+    transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease;
+}
+</style>
