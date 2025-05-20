@@ -15,7 +15,7 @@
     },
     slides: [
         {
-            image: '{{ asset('images/new_family.png') }}',
+            image: '{{ asset('images/hero_first.jpg') }}',
             title: 'Giving Hope to Children',
             subtitle: 'In  Uganda',
             body: 'We\'re dedicated to giving abandoned and destitute children a chance to survive, thrive and be all they can be.'
@@ -45,8 +45,7 @@
             x-transition:leave-start="opacity-100 transform translate-x-0"
             x-transition:leave-end="opacity-0 transform -translate-x-full" class="absolute inset-0">
             <div class="absolute inset-0 z-0 bg-gray-900">
-                <img :src="slide.image" :alt="slide.title"
-                    :class="['w-full h-full object-cover object-[50%_40%] sm:object-[50%_35%] brightness-50']">
+                <img :src="slide.image" :alt="slide.title">
             </div>
             <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white h-full flex items-center mt-12">
                 <div class="text-center w-full">

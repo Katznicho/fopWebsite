@@ -1,4 +1,3 @@
-```html
 <section class="py-16 bg-[#13AFD1]" id="get-involved" x-data="modal">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold mb-4 text-white text-center">GET INVOLVED</h2>

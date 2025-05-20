@@ -26,7 +26,7 @@
             <!-- Meet Patrick Card -->
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 ease-in-out" x-data="{ isExpanded: false }">
                 <div class="h-80">
-                    <img src="{{ asset('images/patrick.JPG') }}" alt="Meet Patrick" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/patrick.jpg') }}" alt="Meet Patrick" class="w-full h-full object-cover">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Meet Patrick</h3>

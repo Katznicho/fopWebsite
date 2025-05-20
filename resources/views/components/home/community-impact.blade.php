@@ -4,13 +4,10 @@
             <div>
                 <h2 class="text-3xl font-bold mb-6 text-[#13AFD1]">Community Impact</h2>
                 <p class="text-gray-600 mb-6">
-                    At Fountain of Peace, our dedication extends beyond supporting the children in our care. We are committed to bringing transformative solutions to the vulnerable communities around us. Over 300 vulnerable children are getting a quality education through our Rwenjaza Hillside Nursery and Primary School. Through this, we are equipping them with the knowledge and skills needed to break the cycle of poverty and build a brighter future.
+                    And then Fountain of Peace is dedicated to transforming lives through education, clean water, and maternal health initiatives. Over 300 vulnerable children receive quality education at Rwenjaza Hillside Nursery and Primary School, equipping them with the skills to break the cycle of poverty.
                 </p>
                 <p class="text-gray-600 mb-6">
-                    Moreover, addressing the critical need for clean water has been one of our primary objectives. We have successfully constructed more than 20 wells, ensuring nearby communities can access safe, life-sustaining water. This initiative promotes better health and empowers communities to thrive and prosper. We also have an initiative called Mothers Matter in childbirth, through which we support pregnant mothers to get the medical attention they need. This way, we promote safe childbirth.
-                </p>
-                <p class="text-gray-600 mb-8">
-                    Our mission is guided by compassion and a deep-seated belief that every child and community deserves the opportunity to flourish. We are immensely grateful for the support and collaboration of those who share our vision. Together, we will continue to make a significant and positive impact in the lives of those we serve.
+                    Additionally, more than 20 wells have been constructed, providing nearby communities with access to safe drinking water and promoting health and stability. The Mothers Matter in Childbirth program ensures pregnant mothers receive essential medical care for safe deliveries. Guided by compassion and a commitment to lasting impact, FOP continues to uplift children and communities with the support of like-minded partners.
                 </p>
                 <p class="text-gray-600">
                     Thank you for being a part of our journey towards hope and transformation. 

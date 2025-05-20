@@ -41,7 +41,9 @@
                         </div>
                         <div>
                             <h3 class="text-2xl font-bold">Nurture</h3>
-                            <p class="text-lg opacity-90">Giving each child an education and a future.</p>
+                            <p class="text-lg opacity-90">
+                                creating a healthy space for our children's growth
+                                .</p>
                         </div>
                     </div>
 
